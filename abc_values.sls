@@ -21,7 +21,6 @@ abc_values:
     log4jappenderstdout: dummy
     log4jappenderstdoutlayout: dummy
     eventlatestBlobPath: dummy
-    eventallBlobPath: dummy
     blobentitiestagName: dummy
     blobentitiesaccountName: dummy
     blobentitiesaccountKey: dummy
