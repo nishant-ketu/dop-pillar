@@ -1,0 +1,20 @@
+name: CI
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run a one-line script
+      run: echo Linting the pillar files!!!!
+
+    - name: Run a multi-line script
+      run: |
+        find . -type f -name '*.sls' -print0 | xargs -0 yamllint -d '{extends: relaxed, rules: {line-length: {max: 200}}}'
+        echo linting done!!!
