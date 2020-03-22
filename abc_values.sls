@@ -28,6 +28,7 @@ abc_values:
     blobentitiescontainerName: dummy
     blobentitieskeyvaultUri: dummy
     servicebushost: dummy
+    blobentitiesaccountKey: dummy
     servicebussharedAccessKeyName: dummy
     servicebussecreteName: dummy
     servicebuskeyvaultUri: dummy
