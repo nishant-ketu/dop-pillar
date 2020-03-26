@@ -10,12 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
-    - name: Run a one-line script
-      run: echo Validating dop-pillar!!!!
-
-    - name: Run a multi-line script
-      run: |
-        sudo apt-get install yamllint
-        find . -type f -name '*.sls' -print0 | xargs -0 yamllint -d '{extends: relaxed, rules: {line-length: {max: 200}}}'
-        echo Validation done!!!
+    - uses: ./.github/actions/yamlvalidator
