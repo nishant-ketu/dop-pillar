@@ -1,8 +1,7 @@
-FROM alpine
+FROM busybox
 
-
-RUN apk update && \
-    apk upgrade
+RUN apt-get update && \
+    apt-get upgrade
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
