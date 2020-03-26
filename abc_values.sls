@@ -29,7 +29,7 @@ abc_values:
     blobentitieskeyvaultUri: dummy
     servicebushost: dummy
     servicebussharedAccessKeyName: dummy
-    servicebussecreteName: dummy
+    servicebussecreteName: dummyvalues
     servicebuskeyvaultUri: dummy
     servicebusoperationTimeout: dummy
     servicebusmaxConcurrentSessions: dummy
