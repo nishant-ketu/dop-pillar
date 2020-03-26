@@ -27,7 +27,6 @@ abc_values:
     blobentitiesprotocol: https
     blobentitiescontainerName: dummy
     blobentitieskeyvaultUri: dummy
-    servicebushost: dummy
     servicebussharedAccessKeyName: dummy
     servicebussecreteName: dummy
     servicebuskeyvaultUri: dummy
