@@ -33,7 +33,7 @@ abc_values:
     servicebuskeyvaultUri: dummy
     servicebusoperationTimeout: dummy
     servicebusmaxConcurrentSessions: dummy
-    servicebusentitiesSB_ACS_OUTBOUND_TOPICentityName: dummy
+    servicebusentitiesSB_ACS_OUTBOUND_TOPICentityName: dummyvalues
     servicebusentitiesSB_ACS_OUTBOUND_TOPICentityType: dummy
     servicebusentitiesSB_ACS_OUTBOUND_TOPICsubscriptionName: dummy
     servicebusentitiesSB_ACS_OUTBOUND_TOPIC_DLQentityName: dummy
