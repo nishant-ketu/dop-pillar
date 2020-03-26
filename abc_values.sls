@@ -18,7 +18,7 @@ abc_values:
     log4jadditivitycomjetblue: "false"
     log4jappenderaiAppender: dummy
     log4jappenderaiAppenderlayout: dummy
-    log4jappenderstdout: dummy
+    log4jappenderstdout: dummyvalue
     log4jappenderstdoutlayout: dummy
     eventlatestBlobPath: dummy
     blobentitiestagName: dummy
