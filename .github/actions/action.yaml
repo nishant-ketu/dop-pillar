@@ -1,0 +1,8 @@
+ 
+name: 'Yaml Validator'
+description: ''
+runs:
+  main: 'yamlValidator.sh'
+branding:
+  icon: 'check-circle'
+  color: 'black'
