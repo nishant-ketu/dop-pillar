@@ -2,7 +2,8 @@
 name: 'Yaml Validator'
 description: ''
 runs:
-  main: 'yamlValidator.sh'
+  using: 'docker'
+  image: 'Dockerfile'
 branding:
   icon: 'check-circle'
   color: 'black'
