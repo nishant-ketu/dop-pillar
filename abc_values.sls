@@ -16,7 +16,7 @@ abc_values:
     log4jrootLogger: ERROR, stdout, aiAppender
     log4jloggercomjetblue: WARN, stdout, aiAppender
     log4jadditivitycomjetblue: "false"
-    log4jappenderaiAppender: dummy
+    log4jappenderaiAppender: dummyvalue
     log4jappenderaiAppenderlayout: dummy
     log4jappenderstdout: dummy
     log4jappenderstdoutlayout: dummy
