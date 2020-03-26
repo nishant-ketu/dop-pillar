@@ -1,4 +1,4 @@
-FROM ubuntu-latest
+FROM alpine
 
 
 RUN apk update && \
