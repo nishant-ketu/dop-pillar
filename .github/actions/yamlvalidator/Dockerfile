@@ -4,5 +4,5 @@ FROM alpine
 RUN apk update && \
     apk upgrade
 
-COPY yamlValidator.sh /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
