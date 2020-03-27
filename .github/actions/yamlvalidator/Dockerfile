@@ -1,4 +1,4 @@
-FROM busybox
+FROM centos
 
 RUN yum update && \
     yum upgrade
