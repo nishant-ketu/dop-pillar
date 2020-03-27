@@ -1,7 +1,7 @@
 FROM busybox
 
-RUN apt-get update && \
-    apt-get upgrade
+RUN yum update && \
+    yum upgrade
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
